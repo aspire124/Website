@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .owl-div01-img01 {
-	background: url(../images/about-carousil/01.jpg);
+	background: url(../savio.jpg);
 	background-size: cover;
 	background-repeat: repeat-y;
 	min-height: 750px;
@@ -396,7 +396,7 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .owl-div02-img02 {
-	background: url(../images/about-carousil/02.jpg);
+	background: url(http://placekitten.com/g/1000/500);
 	background-size: cover;
 	min-height: 750px;
 	position: relative;
