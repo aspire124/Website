@@ -1,0 +1,139 @@
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: trio.*/
+/* Version: 1.0 Initial Release*/
+/* Build Date: 25th june 2015*/
+/* Author: ThemeStag.*/
+/* Website: http://www.themestag.com */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.single-project{
+	background: url('../images/intro-02/home-01.jpg');
+	background-size: cover;	
+	overflow: hidden;
+}
+
+.project-home-content-wrap {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+.project-home-content {
+	text-align: center;
+}
+
+.project-home-content-wrap h1 {
+	font-size: 54px;
+	font-weight: 400;
+	font-style: italic;
+	text-transform: capitalize;
+	padding-top: 20px;
+}
+
+.project-home-content-wrap p {
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-weight: 600;
+}
+
+.project-home-content h5 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 700;
+}
+
+.project-home-content h5 span {
+	padding: 10px;
+	background-color: #000;
+}
+
+
+.project-slider {
+	padding-bottom: 1px;
+}
+
+.project-slider-wrap {
+	position: relative;
+}
+
+.project-light-box{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.project-light-box article{
+	padding-right: 0;
+	padding-left: 0;
+	height: 
+}
+
+.light-box-showcase {
+	position: relative;
+	overflow: hidden;
+}
+
+.project-light-box-hover {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	left: 0;
+	background-color: #E63647;
+  	-webkit-transition: all .6s ease-in-out;
+	   -moz-transition: all .6s ease-in-out;
+		-ms-transition: all .6s ease-in-out;
+		 -o-transition: all .6s ease-in-out;
+			transition: all .6s ease-in-out;
+}
+
+.light-box-showcase a:hover .project-light-box-hover {
+	top: 0%;
+}
+
+.project-demo {
+	/*background-color: #F0F0F0;*/
+
+}
+
+.project-caption h1{
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.project-light-box-content-wrap {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+.project-light-box-content h1 {
+	text-transform: capitalize;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.project-light-box-content h5 {
+	font-weight: lighter;
+	margin-top: 5px;
+	text-transform: capitalize;
+}
+
+.project-light-box-content .line {
+	width: 30%;
+	height: 1px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+

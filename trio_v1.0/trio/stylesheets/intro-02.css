@@ -1,0 +1,94 @@
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: trio.*/
+/* Version: 1.0 Initial Release*/
+/* Build Date: 25th june 2015*/
+/* Author: ThemeStag.*/
+/* Website: http://www.themestag.com */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.intro-02 {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.intro-02 .each-slide.bg-1 {
+	background: url('../images/intro-02/home-01.jpg');
+	background-size: cover;
+	position: relative;
+}
+
+.intro-02 .each-slide.bg-2 {
+	background: url('../images/intro-02/home-02.jpg');
+	background-size: cover;
+	position: relative;
+}
+
+.intro-02 .each-slide.bg-3 {
+	background: url('../images/intro-02/home-03.jpg');
+	background-size: cover;
+	position: relative;
+}
+
+.each-slide  {
+	position: relative;
+}
+
+.each-slide .full-width {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+.each-slide .each-slide-content h1 {
+	font-size: 74px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	padding-left: 20px;
+}
+
+.each-slide .each-slide-content span {
+	border-bottom: 15px solid #EB4F1E;
+}
+
+.each-slide .each-slide-content h3 {
+	padding-top: 30px;
+	text-transform: capitalize;
+	letter-spacing: 5px;
+	font-weight: 700;
+}
+
+.index-02-owl-wrap {
+	position: relative;
+}
+
+.index-02-customNavigation a {
+	position: absolute;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  	border-radius: 0 !important;
+}
+
+.index-02-customNavigation a.prev {
+	left: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.index-02-customNavigation a.next {
+	right: 0;
+	padding: 0;
+	margin: 0;
+}

@@ -1,0 +1,65 @@
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: trio.*/
+/* Version: 1.0 Initial Release*/
+/* Build Date: 25th june 2015*/
+/* Author: ThemeStag.*/
+/* Website: http://www.themestag.com */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+#intro-03 {
+	position: relative;
+	width: 100%;
+}
+
+.bg-video-wrap {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.bg-video-wrap a {
+	height: 100%;
+	width: 100%;
+}
+
+.home-03-content-wrap {
+	background-color: rgba(0,0,0,0.25);
+	position: relative;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+.home-03-content {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+.home-03-content h5 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 700;
+}
+
+.home-03-content h5 span {
+	padding: 10px;
+	background-color: #000;
+}
+
+.home-03-content h1 {
+	font-size: 54px;
+	font-weight: 400;
+	font-style: italic;
+	text-transform: capitalize;
+	padding-top: 20px;
+}

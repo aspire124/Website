@@ -1,0 +1,55 @@
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: trio.*/
+/* Version: 1.0 Initial Release*/
+/* Build Date: 25th june 2015*/
+/* Author: ThemeStag.*/
+/* Website: http://www.themestag.com */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.intro-01{
+	background: url('../images/intro-01/home-01.jpg');
+	background-size: cover;	
+}
+
+.intro-01-content-wrap {
+	position: relative;
+	text-align: center;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+.intro-01-content-wrap h1 {
+	font-size: 96px;
+	font-weight: 900;
+	letter-spacing: 50px;
+	padding-left: 50px;
+	text-transform: uppercase;
+}
+
+.intro-01-content-wrap p {
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	padding-left: 6px;
+	font-weight: 600;
+}
+
+.parallax{
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed !important;
+}
+
+/*this class will be activated on mobile devices in order to switch off the parallax effect*/
+.parallax-off, .no-parallax {
+	background-attachment:scroll !important;
+	background-size:cover !important;
+}
